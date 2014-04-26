@@ -11,3 +11,12 @@ elif argc == 2:
 else:
     sys.exit("usage: wc [file]")
  
+s = f.read()
+f.close()
+
+
+
+i = 0
+for i in ___:
+  print i, __ 
+ 
