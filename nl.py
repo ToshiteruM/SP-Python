@@ -20,3 +20,10 @@ i = 0
 for i in ___:
   print i, __ 
  
+
+s = f.readlines()
+f.close()
+
+for line in s:
+ print line,
+ print
