@@ -1,10 +1,10 @@
 def fb(n):
-    s = ""
-    if n % 3 == 0:
-        s = s + 'Fizz'
-    if n % 5 == 0:
-        s = s + 'Buzz'
-    return s
+    fizz_buzz = ["", "", "", "Fizz", "", "Buzz",
+                 "Fizz", "", "", "Fizz", "Buzz",
+                 "", "Fizz", "", "", "FizzBuzz",
+                 "", "", "Fizz", "", "Buzz"]
+
+    return fizz_buzz[n]
  
 i = 1
 while i <= 20:
