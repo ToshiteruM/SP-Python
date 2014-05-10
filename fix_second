@@ -1,0 +1,12 @@
+def fix_second(s):
+    if s == "i":
+        ret = s
+    else:
+        ret = s[0].replace(s[1], "*") + s[1] + s[2:].replace(s[1], "*")
+    return ret
+
+print fix_second("eel")
+print fix_second("gooooogle")
+print fix_second("apple")
+print fix_second("orange")
+print fix_second("i")
